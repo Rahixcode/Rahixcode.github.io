@@ -27,10 +27,36 @@ p{
     padding: 10px;
     margin: 10px;
 }
+
 #additional-info{
     text-align: left;
     font-size: 18px;
     color: rgb(110, 110, 241);
     padding: 10px;
     margin: 10px;
+}
+
+footer{
+    text-align: right;
+    font-size: 10px;
+    color: rgb(100, 100, 150);
+    padding: 10px;
+    margin: 20px;
+}
+
+a{
+    color: rgb(150, 150, 250);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(120, 120, 220);
+}
+
+a:active{
+    color: rgb(200, 200, 255);
 }
