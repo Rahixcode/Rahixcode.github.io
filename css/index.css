@@ -1,0 +1,24 @@
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(164, 169, 219);
+    margin: 10px;
+    padding: 20px;
+}
+
+#plan{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(110, 110, 241);
+    padding: 10px;
+    margin: 10px;
+}
+
+#additional-info{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(110, 110, 241);
+    padding: 10px;
+    margin: 10px;
+}
