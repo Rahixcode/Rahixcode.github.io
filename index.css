@@ -50,13 +50,6 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
-}
-
-a:visited{
-    color: rgb(120, 120, 220);
-}
-
-a:active{
-    color: rgb(200, 200, 255);
+    text-decoration: line-through;
+    text-emphasis-color: inherit;
 }
