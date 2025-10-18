@@ -27,3 +27,10 @@ p{
     padding: 10px;
     margin: 10px;
 }
+#additional-info{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(110, 110, 241);
+    padding: 10px;
+    margin: 10px;
+}
