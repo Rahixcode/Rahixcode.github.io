@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(34, 34, 34);
+}
+
 h1{
     color: rgb(110, 110, 202);
     text-align: center;
@@ -14,4 +18,12 @@ p{
     color: rgb(164, 169, 219);
     margin: 10px;
     padding: 20px;
+}
+
+#plan{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(110, 110, 241);
+    padding: 10px;
+    margin: 10px;
 }
