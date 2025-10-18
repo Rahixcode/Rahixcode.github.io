@@ -1,3 +1,9 @@
+div{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
