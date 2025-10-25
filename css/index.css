@@ -1,5 +1,7 @@
 #info {
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -8,15 +10,20 @@
     justify-content: center;
 
     min-height: 100vh;
-    width: 500px;
+    max-width: 400px;
+    min-width: none;
     
     margin: 10px;
-    margin-left: 100px;
+    margin-left: 50px;
     min-height: 700px;
     margin-top: 40px;
 
+    padding: 15px;
+
     position: relative;
     overflow: hidden;
+
+    border-radius: 10px;
 }
 
 #my_pic {
@@ -27,14 +34,6 @@
     margin-bottom: 15px;
     box-sizing: border-box;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
-}
-
-
-#info {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
 }
 
 #head{
@@ -65,6 +64,15 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(240, 240, 236);
+}
+
+#head #name #youtube{
+    font-size: 14px;
+    height: 25px;
+    width: auto;
+    text-align: right;
+    margin-top: -25px;
+    margin-right: 15px;
 }
 
 h5 #location{
