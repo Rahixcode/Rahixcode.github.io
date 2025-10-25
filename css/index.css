@@ -36,21 +36,6 @@
   text-align: center;
 }
 
-#name{
-    h3{
-        font-size: 15px;
-        margin: 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    h4{
-        font-size: 11px;
-        margin: 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: rgb(240, 240, 236);
-    }
-}
-
 #head{
     font-size: 12.5px;
     font-weight: bold;
@@ -66,4 +51,19 @@
 
     background-color: rgba(255, 255, 255, 0.1);
     color: bisque;
+
+    #name{
+        h3{
+            font-size: 15px;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h4{
+            font-size: 11px;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(240, 240, 236);
+        }
+    }
 }
