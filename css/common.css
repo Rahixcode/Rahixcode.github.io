@@ -25,6 +25,6 @@ a{
 }
 
 a:hover{
-    text-decoration: line-through;
+    text-decoration: solid underline;
     text-emphasis-color: inherit;
 }
