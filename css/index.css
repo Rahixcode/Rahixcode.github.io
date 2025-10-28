@@ -1,10 +1,10 @@
 #banner{
     background-image: url('../images/banner.jpg');
-    background-size: auto;      
-    background-position: middle center;  
-    height: 1080px;
-    width: auto;
+    background-size: cover;
+    background-position: center;
     padding: 10px;
+    background-color: black;
+    
 }
 
 #profile {
@@ -65,7 +65,7 @@
 
     height: 50px;
 
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     color: bisque;
     border: 2px solid rgb(110, 95, 95);
     border-radius: 10px;
@@ -75,6 +75,8 @@
     font-size: 15px;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px;
+    color: rgb(6, 17, 16);
 }
 
 #head #name h4{
