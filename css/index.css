@@ -1,4 +1,13 @@
-#info {
+#banner{
+    background-image: url('../images/banner.jpg');
+    background-size: auto;      
+    background-position: middle center;  
+    height: 1080px;
+    width: auto;
+    padding: 10px;
+}
+
+#profile {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
 
@@ -9,8 +18,9 @@
     text-align: center;
     justify-content: center;
 
-    min-height: 100vh;
-    max-width: 400px;
+    max-height: auto;
+    min-height: none;
+    max-width: 500px;
     min-width: none;
     
     margin: 10px;
@@ -92,10 +102,10 @@ h5 #location{
 
 #tabs h3{
     display: flex;
-    height: 10px;
-    width: auto;
+    height: auto;
+    width: 150px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
 }
 
 #tabs h3:hover{
