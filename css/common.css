@@ -6,43 +6,46 @@ body{
     background-position: center;
 }
 
+#content{
+    display: flex;
+    flex-direction: column;
+
+    min-height: 80vh;
+    margin: 15px;
+    padding: 15px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
 #head{
     display: flex;
     flex-direction: column;
-    align-items: normal;
 
-    font-size: 12.5px;
     font-weight: bold;
 
     margin-bottom: 15px;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: -9px;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding: 10px;
 
-    padding-left: 20px;
-    padding-top: 15px;
+    height: auto;
 
-    height: 50px;
-
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     color: bisque;
     border: 2px solid rgb(110, 95, 95);
     border-radius: 10px;
 }
 
-#head #name h3{
-    font-size: 15px;
-    margin: 0;
+#head h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+    width: 100px;
+    margin-left: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 1px;
     color: rgb(6, 17, 16);
-}
-
-#head #name h4{
-    font-size: 11px;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(240, 240, 236);
 }
 
 h1{
@@ -65,9 +68,12 @@ footer{
 a{
     color: rgb(150, 150, 250);
     text-decoration: none;
+    margin: 10px;
+    text-align: right;
 }
 
 a:hover{
     text-decoration: solid underline;
     text-emphasis-color: inherit;
+    color: rgb(200, 200, 255);
 }

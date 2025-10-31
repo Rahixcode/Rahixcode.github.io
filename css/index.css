@@ -1,12 +1,14 @@
-#content{
-    display: flex;
-    flex-direction: column;
+#welcome_box{
+    color: white;
 
-    min-height: 80vh;
-    margin: 15px;
+    margin-bottom: 20px;
     padding: 15px;
 
-    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
 
+#welcome_box h2{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+}

@@ -1,6 +1,4 @@
 #banner {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
     border-radius: 10px;
 }
 
@@ -13,13 +11,12 @@
     align-items: center;
 
     max-height: auto;
-    min-height: none;
     max-width: auto;
     min-width: none;
-    min-height: 700px;
+    min-height: 600px;
     
-    margin-left: 100;
-    margin-right: 100;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 20px;
 
     padding: 15px;
@@ -60,5 +57,5 @@ h5 #location{
 #social_links p{
     color: white;
     font-size: 15px;
-    text-align: right;
+    text-align: center;
 }
