@@ -10,8 +10,8 @@ body{
     display: flex;
     flex-direction: column;
 
-    min-height: 80vh;
-    margin: 15px;
+    min-height: 75vh;
+    margin: -15px;
     padding: 15px;
 
     background-color: rgba(0, 0, 0, 0.8);
@@ -35,7 +35,6 @@ body{
     background-color: rgba(255, 255, 255, 0.8);
     color: bisque;
     border: 2px solid rgb(110, 95, 95);
-    border-radius: 10px;
 }
 
 #head h2{

@@ -1,0 +1,7 @@
+#banner_content {
+    color: white;
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}

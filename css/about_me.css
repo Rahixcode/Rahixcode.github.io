@@ -2,6 +2,14 @@
     border-radius: 10px;
 }
 
+#banner_content {
+    color: white;
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
 #profile {
     color: white;
 
@@ -15,8 +23,8 @@
     min-width: none;
     min-height: 600px;
     
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 20px;
 
     padding: 15px;
@@ -28,8 +36,11 @@
 }
 
 #my_pic {
-    align-items: left;
-    width: 150px;           
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    max-width: 150px;
     height: auto;          
     border-radius: 15px;
     border: 2px solid white;
