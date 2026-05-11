@@ -76,3 +76,11 @@ a:hover{
     text-emphasis-color: inherit;
     color: rgb(200, 200, 255);
 }
+
+p{
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
