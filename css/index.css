@@ -1,29 +1,94 @@
-#welcome_box{
-    color: white;
-
-    margin-bottom: 20px;
-    padding: 15px;
-
-    border-radius: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#welcome_box h2{
-    margin-top: 150px;
-    text-align: center;
-    font-size: 40px;
+body {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    line-height: 1.6;
 }
 
-#projects{
+.container {
     display: flex;
-    flex-direction: column;
-
-    min-height: 75vh;
-    margin: -15px;
-    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: auto;
+    padding: 2rem;
 }
 
-.project{
-    color: white;
-    font-size: 20px;
+header {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #b0b0b0;
+}
+
+blockquote {
+    border-left: 4px solid #4caf50;
+    padding-left: 1rem;
+    margin: 2rem 0;
+    font-style: italic;
+    color: #cccccc;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #4caf50;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    margin-top: 0.8rem;
+    color: #8bc34a;
+}
+
+ul {
+    margin-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.4rem;
+}
+
+a {
+    color: #64b5f6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.project {
+    background: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #4caf50;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #333;
+    color: #b0b0b0;
+}
