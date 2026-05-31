@@ -13,10 +13,7 @@ body {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    max-width: 900px;
     margin: auto;
     padding: 2rem;
 }
