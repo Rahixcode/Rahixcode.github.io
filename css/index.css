@@ -13,14 +13,13 @@ body {
 }
 
 .container {
-
     align-items: center;
-    background: rgba(0, 0, 0, 0.6);
-    /* max-width: 900px; */
+    background: rgba(44, 66, 70, 0.6);
+    max-width: 900px;
     margin: auto;
     margin-bottom: 0;
     padding: 2rem;
-    padding-left: 25vw;
+    padding-left: 20vw;
     padding-right: 20vw;
 }
 
