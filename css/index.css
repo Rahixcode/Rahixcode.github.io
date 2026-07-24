@@ -89,7 +89,6 @@ a:hover {
 
 footer {
     background-image: url('../Images/footer.png');
-    blur: 80px;
     background-size: cover;
     
     text-align: center;
