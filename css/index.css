@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('../images/banner.jpg');
+    background-image: url('../Images/Banner.png');
     background-size: cover;
     font-family: Arial, sans-serif;
     color: #e0e0e0;
@@ -88,14 +88,28 @@ a:hover {
 }
 
 footer {
-    background: rgb(235, 251, 255);
+    background-image: url('../Images/footer.png');
+    blur: 80px;
+    background-size: cover;
+    
     text-align: center;
     border-top: 1px solid #333;
     color: #000000;
     padding-bottom: 10px;
-    height: 100vh
+    height: 100vh;
 }
 
 #foot_text {
     margin: 0.5rem;
+}
+
+#bottom {
+    align-items: center;
+    background: rgba(40, 231, 231, 0.712);
+    max-width: 100vw;
+    margin: auto;
+    margin-bottom: 0;
+    padding: 2rem;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
